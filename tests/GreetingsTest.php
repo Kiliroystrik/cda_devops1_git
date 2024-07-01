@@ -6,7 +6,9 @@ use App\Service\Greetings;
 use Symfony\Bundle\FrameworkBundle\Test\KernelTestCase;
 
 class GreetingsTest extends KernelTestCase
-{   
+{
+
+    // Tests
     public function testGreeting(): void
     {
         $greetings = new Greetings();
