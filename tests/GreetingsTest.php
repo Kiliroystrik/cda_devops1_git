@@ -15,6 +15,7 @@ class GreetingsTest extends KernelTestCase
         $this->assertSame('Hello, World!', $greetings->greet('World'));
     }
 
+    // Tests
     public function testBye(): void
     {
         $greetings = new Greetings();
